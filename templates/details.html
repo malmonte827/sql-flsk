@@ -10,7 +10,7 @@
         <ul>
             <li>ID: {{ pet.id }}</li>
             <li>Name: {{ pet.name }}</li>
-            <li>Species: {{ pet.species }}</li>
+            <li>Species: <a href="/species/{{pet.species}}">{{ pet.species }}</a></li>
             <li>Hunger: {{ pet.hunger }}</li>
         </ul>
         <blockquote>{{pet.greet()}}</blockquote>
